@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-31T18:38:13 GST" name="Cross Browser Suite" finished-at="2026-10-31T18:38:30 GST" duration-ms="17024">
+    <groups>
+    </groups>
+    <test started-at="2026-10-31T18:38:13 GST" name="Chrome Automation Test" finished-at="2026-10-31T18:38:30 GST" duration-ms="16829">
+      <class name="MUFrameworkClasses.ScrollClickAndClose">
+        <test-method is-config="true" signature="loggerSetUp()[pri:0, instance:MUFrameworkClasses.ScrollClickAndClose@16d04d3d]" started-at="2026-10-31T18:38:13 GST" name="loggerSetUp" finished-at="2026-10-31T18:38:13 GST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggerSetUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:MUFrameworkClasses.ScrollClickAndClose@16d04d3d]" started-at="2026-10-31T18:38:13 GST" name="setUp" finished-at="2026-10-31T18:38:20 GST" duration-ms="7307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ScrollClickChromeTest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chromeDriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySuccessfulLogin()[pri:0, instance:MUFrameworkClasses.ScrollClickAndClose@16d04d3d]" started-at="2026-10-31T18:38:20 GST" name="verifySuccessfulLogin" finished-at="2026-10-31T18:38:29 GST" duration-ms="9037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MUFrameworkClasses.ScrollClickAndClose@16d04d3d]" started-at="2026-10-31T18:38:29 GST" name="tearDown" finished-at="2026-10-31T18:38:30 GST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MUFrameworkClasses.ScrollClickAndClose -->
+    </test> <!-- Chrome Automation Test -->
+    <test started-at="2026-10-31T18:38:13 GST" name="Firefox Automation Test" finished-at="2026-10-31T18:38:30 GST" duration-ms="17024">
+      <class name="MUFrameworkClasses.ScrollClickAndClose">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:MUFrameworkClasses.ScrollClickAndClose@34a3d150]" started-at="2026-10-31T18:38:13 GST" name="startReport" finished-at="2026-10-31T18:38:13 GST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="loggerSetUp()[pri:0, instance:MUFrameworkClasses.ScrollClickAndClose@34a3d150]" started-at="2026-10-31T18:38:13 GST" name="loggerSetUp" finished-at="2026-10-31T18:38:13 GST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggerSetUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:MUFrameworkClasses.ScrollClickAndClose@34a3d150]" started-at="2026-10-31T18:38:13 GST" name="setUp" finished-at="2026-10-31T18:38:19 GST" duration-ms="5692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ScrollClickFirefoxTest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefoxDriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySuccessfulLogin()[pri:0, instance:MUFrameworkClasses.ScrollClickAndClose@34a3d150]" started-at="2026-10-31T18:38:19 GST" name="verifySuccessfulLogin" finished-at="2026-10-31T18:38:24 GST" duration-ms="5216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MUFrameworkClasses.ScrollClickAndClose@34a3d150]" started-at="2026-10-31T18:38:24 GST" name="tearDown" finished-at="2026-10-31T18:38:30 GST" duration-ms="5915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="saveReport()[pri:0, instance:MUFrameworkClasses.ScrollClickAndClose@34a3d150]" started-at="2026-10-31T18:38:30 GST" name="saveReport" finished-at="2026-10-31T18:38:30 GST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveReport -->
+      </class> <!-- MUFrameworkClasses.ScrollClickAndClose -->
+    </test> <!-- Firefox Automation Test -->
+  </suite> <!-- Cross Browser Suite -->
+</testng-results>

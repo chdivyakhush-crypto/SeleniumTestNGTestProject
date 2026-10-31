@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Cross Browser Suite" parallel="tests" thread-count="2" verbose="2">
+    
+    <listeners>
+        <!-- Uses your exact case-sensitive package path -->
+        <listener class-name="Listeners.MyTestListeners" />
+    </listeners>
+
+    <test name="Chrome Automation Test">
+        <parameter name="browserName" value="chromeDriver" />
+        <parameter name="testCaseName" value="ScrollClickChromeTest"/>
+        <classes>
+            <class name="MUFrameworkClasses.ScrollClickAndClose" />
+        </classes>
+    </test>
+
+    <test name="Firefox Automation Test">
+        <parameter name="browserName" value="firefoxDriver" />
+        <parameter name="testCaseName" value="ScrollClickFirefoxTest"/>
+        <classes>
+            <class name="MUFrameworkClasses.ScrollClickAndClose" />
+        </classes>
+    </test>
+
+</suite>
